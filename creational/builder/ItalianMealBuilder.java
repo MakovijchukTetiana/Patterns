@@ -8,13 +8,13 @@ public class ItalianMealBuilder implements MealBuilder {
     }
 
     @Override
-    public void buildDrink() { meal.setDrink("red wine"); }
+    public void buildDrink() { meal.setDrink("Червоне вино"); }
 
     @Override
-    public void buildMainCourse() { meal.setMainCourse("pizza"); }
+    public void buildMainCourse() { meal.setMainCourse("Піца"); }
 
     @Override
-    public void buildSide() { meal.setSide("bread"); }
+    public void buildSide() { meal.setSide("Хліб"); }
 
     @Override
     public Meal getMeal() { return meal; }

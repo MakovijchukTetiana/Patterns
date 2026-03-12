@@ -14,6 +14,6 @@ public class SingletonExample {
     }
 
     public void sayHello() {
-        System.out.println("Hello");
+        System.out.println("Привіт");
     }
 }

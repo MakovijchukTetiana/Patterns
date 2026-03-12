@@ -13,6 +13,6 @@ public class Person implements Prototype {
     }
 
     public String toString() {
-        return "This person is named " + name;
+        return "Цю людину звати " + name;
     }
 }

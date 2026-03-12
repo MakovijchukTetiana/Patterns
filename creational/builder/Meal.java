@@ -15,6 +15,6 @@ public class Meal {
     public void setSide(String side) { this.side = side; }
 
     public String toString() {
-        return "drink:" + drink + ", main course:" + mainCourse + ", side:" + side;
+        return "напій:" + drink + ", основна страва:" + mainCourse + ",гарнір:" + side;
     }
 }

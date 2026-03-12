@@ -13,6 +13,6 @@ public class ProtoDog implements Prototype {
     }
 
     public String toString() {
-        return "This dog says " + sound;
+        return " Цей собака каже " + sound;
     }
 }
