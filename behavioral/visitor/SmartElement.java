@@ -1,4 +1,5 @@
 package behavioral.visitor;
 
-public class SmartElement {
+public interface SmartElement {
+    void accept(Visitor visitor);
 }

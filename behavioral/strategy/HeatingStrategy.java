@@ -1,4 +1,5 @@
 package behavioral.strategy;
 
-public class HeatingStrategy {
+public interface HeatingStrategy {
+    void heat();
 }

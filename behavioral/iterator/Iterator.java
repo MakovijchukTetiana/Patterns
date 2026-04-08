@@ -1,4 +1,6 @@
 package behavioral.iterator;
 
-public class Iterator {
+public interface Iterator {
+    boolean hasNext();
+    Object next();
 }

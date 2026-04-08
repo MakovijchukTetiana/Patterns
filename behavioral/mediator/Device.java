@@ -1,4 +1,6 @@
 package behavioral.mediator;
 
-public class Device {
+public abstract class Device {
+    protected SmartHub hub;
+    public Device(SmartHub hub) { this.hub = hub; }
 }

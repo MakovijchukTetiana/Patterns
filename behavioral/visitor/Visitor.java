@@ -1,4 +1,5 @@
 package behavioral.visitor;
 
-public class Visitor {
+public interface Visitor {
+    void visit(SmartSpeaker speaker);
 }

@@ -1,4 +1,5 @@
 package behavioral.state;
 
-public class DoorState {
+public interface DoorState {
+    void action();
 }

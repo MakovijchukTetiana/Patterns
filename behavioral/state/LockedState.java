@@ -1,4 +1,5 @@
 package behavioral.state;
 
-public class LockedState {
+public class LockedState implements DoorState {
+    public void action() { System.out.println("Двері заблоковані. Потрібен ключ."); }
 }

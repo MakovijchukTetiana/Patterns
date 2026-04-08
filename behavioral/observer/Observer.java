@@ -1,4 +1,5 @@
 package behavioral.observer;
 
-public class Observer {
+public interface Observer {
+    void update(String event);
 }
