@@ -67,7 +67,6 @@ public class Lab4FunctionalTasks {
     // 6. Одночасне знаходження суми та добутку
     public static void printSumAndProduct(List<Integer> nums) {
         long sumResult = nums.stream().reduce(0, Integer::sum);
-        // Використовуємо long для добутку
         long productResult = nums.stream().reduce(1, (acc, next) -> acc * next);
         System.out.println("Сума: " + sumResult + ", Добуток: " + productResult);
     }
